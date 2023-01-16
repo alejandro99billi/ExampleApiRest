@@ -1,0 +1,10 @@
+create table users(
+ id int  NOT NULL AUTO_INCREMENT,
+ name varchar (30),
+ user_name varchar (30),
+ date_registry varchar,
+ PRIMARY KEY (id)
+)
+
+insert into users(id,name,user_name, date_registry)
+values (1,'alejandro','salvatierra','2010-12-01')

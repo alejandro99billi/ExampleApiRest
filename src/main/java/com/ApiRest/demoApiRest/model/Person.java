@@ -19,13 +19,13 @@ public class Person {
 
     @Column(name = "date_registry")
     @CreatedDate
-    private Date date;
+    private String date;
 
     public Person() {
 
     }
 
-    public Person(Long id, String name, String userName, Date date) {
+    public Person(Long id, String name, String userName, String date) {
         this.id = id;
         this.name = name;
         this.userName = userName;
@@ -56,11 +56,11 @@ public class Person {
         this.userName = userName;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
