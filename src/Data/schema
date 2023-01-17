@@ -8,3 +8,8 @@ create table users(
 
 insert into users(id,name,user_name, date_registry)
 values (1,'alejandro','salvatierra','2010-12-01')
+INSERT INTO test.users
+(id, date_registry, name, user_name)
+VALUES(2, '2020-10-12', 'billi', 'salvatierra')
+(id, date_registry, name, user_name)
+VALUES(2, '2020-10-12', 'billi', 'salvatierra')
